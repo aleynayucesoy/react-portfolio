@@ -1,0 +1,46 @@
+.project-box {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 100%;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.project-box:hover {
+  background-color: #fafafa;
+  opacity: 1;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+}
+.project-box .project {
+  padding: 30px;
+}
+.project-box .project .project-logo {
+  width: 30px;
+}
+.project-box .project .project-logo img {
+  width: 100%;
+}
+.project-box .project .project-title {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+.project-box .project .project-description {
+  color: var(--secondary-color);
+}
+.project-box .project .project-link {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: var(--secondary-color);
+  padding-top: 20px;
+}/*# sourceMappingURL=project.css.map */
